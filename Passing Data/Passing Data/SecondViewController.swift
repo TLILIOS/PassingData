@@ -10,12 +10,17 @@ import UIKit
 class SecondViewController: UIViewController {
 
     @IBOutlet weak var lbl: UILabel!
-    var name = ""
+    var user: User?
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        lbl.text = name
+        if let userData = user {
+            lbl.text = "Name:\(userData.name), Age: \(userData.age), Email: \(userData.email)"
+        }
     }
+}
+struct User {
+    var name: String
+    var age: Int
+    var email: String
     
-
 }

@@ -16,9 +16,14 @@ class ViewController: UIViewController {
     }
     @IBAction func button(_ sender: UIButton) {
         let secondVC = storyboard?.instantiateViewController(identifier: "SecondID") as! SecondViewController
-        secondVC.name = textField.text ?? "aucun text entré!!!"
-    
-        present(secondVC, animated: true, completion: nil)
+        secondVC.user = User(name: "Hamdi", age: 35, email: "Adam.tlili@yahoo.fr")
+//        secondVC.modalPresentationStyle = .fullScreen
+        
+        //sans navigation controller
+//        present(secondVC, animated: true, completion: nil)
+        
+        //avec Navigation Controller
+        navigationController?.pushViewController(secondVC, animated: true)
         
     }
     
