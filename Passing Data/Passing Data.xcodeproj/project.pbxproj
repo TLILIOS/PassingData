@@ -19,6 +19,11 @@
 		57A48B222BE93E65000529BF /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48B212BE93E65000529BF /* FifthViewController.swift */; };
 		57A48B242BEA858A000529BF /* UserProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48B232BEA858A000529BF /* UserProfilViewController.swift */; };
 		57A48B262BEA85AD000529BF /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48B252BEA85AD000529BF /* UserDataViewController.swift */; };
+		57A48B282BEA987D000529BF /* FirstTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48B272BEA987D000529BF /* FirstTabVC.swift */; };
+		57A48B2A2BEA9896000529BF /* SecndTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48B292BEA9896000529BF /* SecndTabVC.swift */; };
+		57A48B2C2BEA98B2000529BF /* ThirdTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48B2B2BEA98B2000529BF /* ThirdTabVC.swift */; };
+		57A48B2E2BEA98CC000529BF /* ForthTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48B2D2BEA98CC000529BF /* ForthTabVC.swift */; };
+		57A48B302BEA98EA000529BF /* ContainerTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A48B2F2BEA98EA000529BF /* ContainerTabVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		57A48B212BE93E65000529BF /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		57A48B232BEA858A000529BF /* UserProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilViewController.swift; sourceTree = "<group>"; };
 		57A48B252BEA85AD000529BF /* UserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
+		57A48B272BEA987D000529BF /* FirstTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabVC.swift; sourceTree = "<group>"; };
+		57A48B292BEA9896000529BF /* SecndTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecndTabVC.swift; sourceTree = "<group>"; };
+		57A48B2B2BEA98B2000529BF /* ThirdTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabVC.swift; sourceTree = "<group>"; };
+		57A48B2D2BEA98CC000529BF /* ForthTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthTabVC.swift; sourceTree = "<group>"; };
+		57A48B2F2BEA98EA000529BF /* ContainerTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerTabVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,11 @@
 				57A48B212BE93E65000529BF /* FifthViewController.swift */,
 				57A48B232BEA858A000529BF /* UserProfilViewController.swift */,
 				57A48B252BEA85AD000529BF /* UserDataViewController.swift */,
+				57A48B272BEA987D000529BF /* FirstTabVC.swift */,
+				57A48B292BEA9896000529BF /* SecndTabVC.swift */,
+				57A48B2B2BEA98B2000529BF /* ThirdTabVC.swift */,
+				57A48B2D2BEA98CC000529BF /* ForthTabVC.swift */,
+				57A48B2F2BEA98EA000529BF /* ContainerTabVC.swift */,
 			);
 			path = "Passing Data";
 			sourceTree = "<group>";
@@ -156,12 +171,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A48B2E2BEA98CC000529BF /* ForthTabVC.swift in Sources */,
 				57A48B202BE93E4A000529BF /* FourthViewController.swift in Sources */,
 				57A48B1C2BE7EAC8000529BF /* SecondViewController.swift in Sources */,
 				57A48B0C2BE7E81C000529BF /* ViewController.swift in Sources */,
 				57A48B262BEA85AD000529BF /* UserDataViewController.swift in Sources */,
 				57A48B242BEA858A000529BF /* UserProfilViewController.swift in Sources */,
+				57A48B282BEA987D000529BF /* FirstTabVC.swift in Sources */,
+				57A48B2C2BEA98B2000529BF /* ThirdTabVC.swift in Sources */,
+				57A48B302BEA98EA000529BF /* ContainerTabVC.swift in Sources */,
 				57A48B1E2BE93E2B000529BF /* ThirdViewController.swift in Sources */,
+				57A48B2A2BEA9896000529BF /* SecndTabVC.swift in Sources */,
 				57A48B082BE7E81C000529BF /* AppDelegate.swift in Sources */,
 				57A48B0A2BE7E81C000529BF /* SceneDelegate.swift in Sources */,
 				57A48B222BE93E65000529BF /* FifthViewController.swift in Sources */,
