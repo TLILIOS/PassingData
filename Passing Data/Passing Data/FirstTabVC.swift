@@ -6,8 +6,8 @@
 //
 
 import UIKit
-
-class FirstTabVC: UITabBarController {
+let bgNotificationKey = "fr.TliliOS.ChangeBackground"
+class FirstTabVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +16,8 @@ class FirstTabVC: UITabBarController {
     }
     
     @IBAction func btnPostNotification(_ sender: UIButton) {
-        
+        let color = UIColor.red
+        NotificationCenter.default.post(name: Notification.Name(bgNotificationKey), object: color)
         
     }
     
